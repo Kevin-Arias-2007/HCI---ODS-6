@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aguas para el Futuro - ODS 6</title>
+    <style>
+        body {
+            background-color: #FDF5E6;
+        }
+        h1 {
+            color: #FFDEAD;
+            font-weight: bold;
+        }
+        h2 {
+            color: #D8BFD8;
+            font-weight: bold;
+        }
+        h3 {
+            color: #DEB887;
+            font-weight: bold;
+        }
+        p {
+            color: #333333;
+        }
+    </style>
+</head>
+<body>
+<center>
+
+    <!-- ENCABEZADO Y MENÚ DE NAVEGACIÓN -->
+    <header>
+        <img src="imagenes/logos.png" alt="Logotipo de Aguas para el Futuro" width="120">
+        <h1>Aguas para el Futuro</h1>
+        <p>Garantizando agua limpia y saneamiento para todas las comunidades</p>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#quienes-somos">Quiénes somos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL DE LA LANDING PAGE -->
+    <main>
+
+        <!-- SECCIÓN 1: INICIO -->
+        <section id="inicio">
+            <h2>Bienvenidos a nuestro proyecto</h2>
+            <p>Presentamos iniciativas vinculadas con el Objetivo de Desarrollo Sostenible 6: Agua limpia y saneamiento.</p>
+            <img src="imagenes/nosotros.png" alt="Comunidad beneficiada con agua potable" width="500">
+        </section>
+
+        <!-- SECCIÓN 2: QUIÉNES SOMOS -->
+        <section id="quienes-somos">
+            <h2>Quiénes somos</h2>
+            <p>Somos una organización comprometida con la gestión sostenible del agua, buscando reducir la escasez hídrica y llevar saneamiento básico a zonas vulnerables.</p>
+            
+            <article>
+                <h3>Nuestra misión</h3>
+                <p>Implementar soluciones tecnológicas y comunitarias para asegurar el acceso universal y equitativo al agua potable.</p>
+            </article>
+
+            <article>
+                <h3>Nuestra visión</h3>
+                <p>Ser la organización líder en el desarrollo de proyectos hídricos sostenibles que transformen la calidad de vida de las comunidades hacia el 2030.</p>
+            </article>
+        </section>
+
+        <!-- SECCIÓN 3: SERVICIOS -->
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <img src="imagenes/servicios.jpg" alt="Capacitación en gestión de agua" width="400">
+            <ul>
+                <li>Instalación de sistemas de purificación de agua comunitaria.</li>
+                <li>Capacitación en gestión y conservación de recursos hídricos.</li>
+                <li>Consultoría en saneamiento básico y eco-letrinas.</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN 4: PROYECTOS -->
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <img src="imagenes/proyectos.jpg" alt="Proyecto de cosecha de agua" width="400">
+            <p>Conoce las acciones que estamos ejecutando para cumplir con el ODS 6:</p>
+            <ul>
+                <li><strong>Agua en tu Comunidad:</strong> Construcción de pozos y redes de distribución en zonas rurales.</li>
+                <li><strong>Cosecha de Lluvia:</strong> Implementación de sistemas de recolección de agua pluvial para riego y consumo humano.</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN 5: GALERÍA / MULTIMEDIA -->
+        <section id="galeria">
+            <h2>Galería y Testimonios</h2>
+            <p>Conoce el impacto de nuestras instalaciones a través de nuestro video:</p>
+            <video width="400" controls>
+                <source src="videos/presentacion.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </section>
+
+        <!-- SECCIÓN 6: CONTÁCTANOS (Formulario) -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <p>¿Quieres sumar tu comunidad o colaborar con nosotros? Escríbenos:</p>
+            <form action="#" method="POST">
+                <div>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+                <div>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <h2>Contacto y redes sociales</h2>
+        <p>Correo: contacto@aguasparafuturo.org</p>
+        <p>
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://instagram.com" target="_blank">Instagram</a> | 
+            <a href="https://youtube.com" target="_blank">YouTube</a>
+        </p>
+        <p>&copy; 2026 Aguas para el Futuro. Todos los derechos reservados.</p>
+    </footer>
+
+</center>
+</body>
+</html>
